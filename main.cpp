@@ -10,7 +10,7 @@
 	This must be injected into the Wesnoth process to work. One way to do this is to use a DLL injector. 
    	Another way is to enable AppInit_DLLs in the registry.
 	
-	The offsets and explanation of the codecave are covered in https://gamehacking.academy/lesson/11 and https://gamehacking.academy/lesson/16
+	The offsets and explanation of the codecave are covered in https://gamehacking.academy/lesson/11 and https://gamehacking.academy/lesson/17
 */
 #include <Windows.h>
 
