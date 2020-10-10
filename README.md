@@ -1,4 +1,4 @@
-# CodeCaveDLL
+# Wesnoth_CodeCaveDLL
 
 A DLL that redirects the "Terrain Description" function in Wesnoth 1.14.9 to a custom function that sets the player's gold to 888. This custom function then recreates the "Terrain Description" function and returns execution to the program.
 	
