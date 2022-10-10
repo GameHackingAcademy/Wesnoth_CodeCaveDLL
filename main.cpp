@@ -36,10 +36,10 @@ __declspec(naked) void codecave() {
 
 	// Restore the registers and then recreate the original instructions that we overwrote
 	// After those, jump back to the instruction after the one we overwrote
-	_asm {
+	__asm {
 		popad
 		mov eax, dword ptr ds:[ecx]
-		lea esi,dword ptr ds:[esi]
+		lea esi, dword ptr ds:[esi]
 		jmp ret_address
 	}
 }
